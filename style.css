@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/notebook.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 6rem;
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: -4px;
+    font-weight: 600;
+}
+
+header p {
+    font-weight: 600;
+}
+
+.container-1 {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.head {
+    padding-bottom: 3rem;
+}
+
+.main {
+    background-color: #fff;
+    width: 55%;
+    margin-left: 8rem;
+}
+
+.main h1 {
+    margin: 2rem 0px 5px 1rem;
+}
+
+.main img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 95%;
+}
+
+.content-2 {
+    width: 24%;
+    background-color: #fff;
+    margin-left: -150px;
+    height: 100vh;
+}
+
+.main p {
+    margin-left: 1rem;
+    padding: 10px 10px 20px 0px;
+}
+
+hr {
+    width: 90%;
+    margin-left: 1rem;
+}
+
+.main h5 {
+    margin-left: 1rem;
+    padding: 10px;
+    color: lightgray;
+}
+
+.content-2 img {
+    border-radius: 50%;
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.content-2 p {
+    margin-left: 1rem;
+}
+
+.follow {
+    margin: 50px 0px;
+}
+
+.follow h1 {
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.follow ul {
+    margin-left: 5rem;
+    color: red;
+}
+
+.quote h1 {
+    margin-left: 1rem;
+    margin-bottom: 1rem
+}
+
+footer {
+    margin-left: 12.5rem;
+}
+
+footer p {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer span {
+    color: red;
+}
